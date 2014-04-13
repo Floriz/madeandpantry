@@ -63,16 +63,6 @@
     position: relative;
     }
 
-    .newsletter-message { 
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 80px;
-    font-size: 24px;
-    font-weight: 200;
-    display: inline-block;
-    float: left;
-    }
-
     #newsletter-signup { 
     display: inline-block;
     float: left;
@@ -112,6 +102,24 @@
       color: #010101;
       border-color: #010101;
       outline: none;
+    }
+
+    .submit {
+      padding: 14px 14px 14px 14px;      
+      background: #ee0000;
+      color: white;
+      text-decoration: none;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      border: none;
+      font-size: 18px;
+      font-weight: 200;
+      outline: none;
+    }
+
+    .submit:hover {
+      background: #ff0000;
     }
 
 
@@ -203,12 +211,6 @@
         
         <div class="newsletter">
 
-        <div id="mce-responses" class="clear">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
-
-          <p class="newsletter-message">Looking for more? Grab our weekly newsletter!</p>
 
               <form action="http://littlebigdetails.us2.list-manage.com/subscribe/post?u=14d2a44f84d398267c8182ae2&amp;id=6faa9bfba7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 
@@ -217,6 +219,12 @@
 
 
               </form>
+
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+
 
               <script type="text/javascript">
               var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';
